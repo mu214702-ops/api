@@ -272,7 +272,7 @@ def handle_bgmi_fixed(message):
 
     # --- [ 1. FORMAT & IP/PORT VALIDATION ] ---
     if len(cmd) != 4:
-        bot.reply_to(message, "⚠️ <b>Usage: /bgmi &lt;IP&gt; &lt;PORT&gt; &lt;TIME&gt;</b>", parse_mode="HTML")
+        bot.reply_to(message, "⚔️ <b>𝐀𝐭𝐭𝐚𝐜𝐤:</b> <code>/bgmi [ip] [port] [time]</code>\n", parse_mode="HTML")
         return
 
     ip, port, duration = cmd[1], cmd[2], cmd[3]
